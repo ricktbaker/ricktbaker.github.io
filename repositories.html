@@ -8,6 +8,12 @@ header-img: "img/about-bg.jpg"
 {% for repository in site.github.public_repositories %}
 {% if repository.name != 'ricktbaker.github.io' %}
 <div class="post-preview">
+    <a href="https://github.com/{{ site.github_username }}">
+                            <span class="fa-stack fa-sm">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+    </a>
     <b><a target="_blank" href="{{repository.html_url}}">{{ repository.name }}</a></b> <br />
     {{ repository.description }}
 </div>
