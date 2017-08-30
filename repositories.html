@@ -1,0 +1,11 @@
+---
+layout: page
+description: "DevOps by Profession"
+---
+
+{% for repository in site.github.public_repositories %}
+<div class="post-preview">
+    {{ repository }}
+</div>
+<hr>
+{% endfor %}
