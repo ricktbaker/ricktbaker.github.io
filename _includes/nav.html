@@ -1,4 +1,3 @@
-
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid">
@@ -20,11 +19,11 @@
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
-                {% if page.url != '/404.html' %}
+				{% if page.url != '/404.html' %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
-                {% endif %}
+				{% endif %}
                 {% endif %}{% endfor %}
             </ul>
         </div>
