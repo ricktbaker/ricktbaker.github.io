@@ -401,3 +401,15 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+.post-share {
+  padding: 1rem 0;
+
+h5 {
+  display: inline-block;
+}
+
+a {
+  font-size: 1.1rem;
+  margin-left: 0.4rem;
+}
+}
