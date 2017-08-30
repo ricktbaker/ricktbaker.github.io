@@ -6,10 +6,12 @@ header-img: "img/about-bg.jpg"
 ---
 
 {% for repository in site.github.public_repositories %}
+{% if repository.name != 'ricktbaker.github.io %}
 <div class="post-preview">
     <b><a target="_blank" href="{{repository.html_url}}">{{ repository.name }}</a></b> <br />
     {{ repository.description }}
 </div>
 <hr>
+{% endif %}
 {% endfor %}
 
