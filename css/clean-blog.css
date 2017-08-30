@@ -403,13 +403,11 @@ body {
 }
 .post-share {
   padding: 1rem 0;
-
-h5 {
+}
+.post-share h5 {
   display: inline-block;
 }
-
-a {
+.post-share a {
   font-size: 1.1rem;
   margin-left: 0.4rem;
-}
 }
