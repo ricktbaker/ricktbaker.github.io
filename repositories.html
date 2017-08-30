@@ -7,7 +7,9 @@ header-img: "img/about-bg.jpg"
 
 {% for repository in site.github.public_repositories %}
 <div class="post-preview">
-    {{ repository }}
+    {{ repository.name }} <br />
+    {{ repository.description }} <br />
+    {{ repository.html_url }}
 </div>
 <hr>
 {% endfor %}
