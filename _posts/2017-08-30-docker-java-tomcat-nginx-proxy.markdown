@@ -4,7 +4,7 @@ title:      "Tomcat with an Nginx proxy running inside docker containers"
 subtitle:   "Simple tomcat setup with an nginx proxy running a sample hello world war file from within docker containers."
 date:       2017-08-30 20:23:00
 author:     "Rick Baker"
-header-img: "img/post-bg-03.jpg"
+header-img: "img/post-bg-04.jpg"
 repo:       "https://github.com/ricktbaker/ricktbaker/docker-java-tomcat-nginx"
 ---
 
