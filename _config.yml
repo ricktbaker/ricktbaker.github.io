@@ -1,9 +1,9 @@
 # Site settings
-title: DevOps by Profession
+title: Daily DevOps
 header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 copyright_name: Rick Baker
-description: "Rick Baker"
+description: "Daily Devops by Rick Baker"
 baseurl: ""
 url: "http://ricktbaker.com"
 twitter_username:
