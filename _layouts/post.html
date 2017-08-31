@@ -38,10 +38,6 @@ layout: default
 
                 <hr>
 
-                {% include disqus.html %}
-
-                <hr>
-
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -54,6 +50,9 @@ layout: default
                     </li>
                     {% endif %}
                 </ul>
+
+                <hr>
+                {% include disqus.html %}
 
             </div>
         </div>
