@@ -26,8 +26,5 @@ exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 gems:
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
-  - jekyll-sitemap
-
-plugins:
-  - jekyll-sitemap
