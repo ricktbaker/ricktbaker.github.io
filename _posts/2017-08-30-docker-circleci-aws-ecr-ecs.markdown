@@ -2,7 +2,7 @@
 layout:     post
 title:      "Deploying Docker App to AWS ECS via CircleCI"
 subtitle:   "A demo git repo showing how to deploy a docker app to AWS ECS using CirlceCI and ECR."
-date:       2017-08-30 12:38:00
+date:       2017-08-30 19:14:00
 author:     "Rick Baker"
 header-img: "img/post-bg-02.jpg"
 repo:       "https://github.com/ricktbaker/docker-circleci-ecr-ecs"

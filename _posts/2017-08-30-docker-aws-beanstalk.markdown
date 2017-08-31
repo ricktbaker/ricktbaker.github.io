@@ -2,7 +2,7 @@
 layout:     post
 title:      "Deploying Docker App to AWS Beanstalk"
 subtitle:   "How to deploy a docker app to AWS Beanstalk.   Sample docker app and code provided in a git repo for easy execution."
-date:       2017-08-30 12:38:00
+date:       2017-08-30 14:02:00
 author:     "Rick Baker"
 header-img: "img/post-bg-01.jpg"
 repo:       "https://github.com/ricktbaker/docker-aws-beanstalk"
