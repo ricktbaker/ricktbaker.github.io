@@ -1,5 +1,3 @@
-
-
 ---
 layout:     post
 title:      "Deploying Docker App to AWS ECS via CircleCI"
