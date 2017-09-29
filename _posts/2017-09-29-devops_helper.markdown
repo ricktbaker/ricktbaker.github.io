@@ -37,7 +37,7 @@ Setup multipe organizations
 
 Add your AWS access keys per Organization and region (only needs ec2.describeInstances currently)
 
-![Access Keys]<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/access_keys.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/access_keys.png" />
 
 Scan for keys that are used for SSH access, and import them
 
