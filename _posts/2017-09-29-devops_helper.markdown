@@ -16,6 +16,13 @@ This is still very early in the development phase.   It has some rough edges for
 
 It's built on electron and vue which at this point in time I have about 1 week experience with, so there are probably many things that can be done better, cleaner, etc.   I wanted to learn the electron/vue combo and wanted to make something useful in the process.
 
+Primary Components: 
+- Electron
+- Vue
+- XTerm.js
+- node-pty
+- Amazon SDK
+
 #### Build Setup
 
 ``` bash
@@ -58,6 +65,8 @@ Easily connect via ssh to a server with the click of a button
 ### What's to come
 
 So much more.   Eventually would like to add regular server support, google cloud, etc.
+
+Swap out node-pty for ssh2
 
 Preferences, colors, styles, etc.
 
