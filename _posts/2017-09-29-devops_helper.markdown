@@ -10,7 +10,9 @@ repo:       "https://github.com/ricktbaker/devops_helper"
 
 # DevOps Helper
 
-This is my current pet project which is meant to help those that work with a number of AWS accounts.   Always having to login to the console to find the server you want to connect to, if you need to use a bastion host, what key you need to use, etc.
+This is my current pet project which is meant to help those that work with a number of AWS accounts.   I have a ton of different AWS clients, so I am always having to login to the console to find the server I want to connect to.   Figure out what ssh key I need to use, etc.   
+
+I've had a small bash script I've used in the past that makes things a bit easier, but it's been neglected so instead of updating it, I decided to scratch it and start over.
 
 This is still very early in the development phase.   It has some rough edges for sure.   It has been developed on a Mac, so your mileage may vary on other platforms.
 
