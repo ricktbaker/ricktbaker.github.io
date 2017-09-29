@@ -33,27 +33,27 @@ yarn run build
 #### What is working thus far
 
 Setup multipe organizations
-<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/multiple_orgs.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/multiple_orgs.png" />
 
 Add your AWS access keys per Organization and region (only needs ec2.describeInstances currently)
 
-![Access Keys]<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/access_keys.png" />
+![Access Keys]<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/access_keys.png" />
 
 Scan for keys that are used for SSH access, and import them
 
-<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/import_keys.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/import_keys.png" />
 
 Easily list out instances in regions you have setup
 
-<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/instanceList.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/instanceList.png" />
 
 Setup a bastion host per region if you need to ssh into it first to access private ip servers behind
 
-<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/bastion_host.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/bastion_host.png" />
 
 Easily connect via ssh to a server with the click of a button
 
-<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/screenshots/ssh_connection.png" />
+<img src="http://raw.githubusercontent.com/ricktbaker/devops_helper/master/screenshots/ssh_connection.png" />
 
 ### What's to come
 
