@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "DevOps Helper - Quickly work with your AWS instances"
+title:      "Opshell - Quickly work with your AWS instances"
 subtitle:   "An early development project for working with AWS instances across multiple organizations"
 date:       2017-09-29 13:46:00
 author:     "Rick Baker"
@@ -8,7 +8,7 @@ header-img: "img/post-bg-04.jpg"
 repo:       "https://github.com/ricktbaker/devops_helper"
 ---
 
-# DevOps Helper
+# Opshell
 
 This is my current pet project which is meant to help those that work with a number of AWS accounts.   I have a ton of different AWS clients, so I am always having to login to the console to find the server I want to connect to.   Figure out what ssh key I need to use, etc.   
 
