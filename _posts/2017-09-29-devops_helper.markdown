@@ -5,18 +5,14 @@ subtitle:   "An early development project for working with AWS instances across 
 date:       2017-09-29 13:46:00
 author:     "Rick Baker"
 header-img: "img/post-bg-04.jpg"
-repo:       "https://github.com/ricktbaker/devops_helper"
+repo:       "https://github.com/ricktbaker/opshell"
 ---
 
 # Opshell
 
-This is my current pet project which is meant to help those that work with a number of AWS accounts.   I have a ton of different AWS clients, so I am always having to login to the console to find the server I want to connect to.   Figure out what ssh key I need to use, etc.   
+This is my current pet project which is meant to help those that work with a number of AWS accounts. Always having to login to the console to find the server you want to connect to, if you need to use a bastion host, what key you need to use, etc.
 
-I've had a small bash script I've used in the past that makes things a bit easier, but it's been neglected so instead of updating it, I decided to scratch it and start over.
-
-This is still very early in the development phase.   It has some rough edges for sure.   It has been developed on a Mac, so your mileage may vary on other platforms.
-
-It's built on electron and vue which at this point in time I have about 1 week experience with, so there are probably many things that can be done better, cleaner, etc.   I wanted to learn the electron/vue combo and wanted to make something useful in the process.
+This is still very early in the development phase. It has some rough edges for sure. It has been developed on a Mac, so your mileage may vary on other platforms. Currently there are no built downloads available. Once I get to a good solid base I will try and make Mac and Windows downloadables available. For now, if you have node installed, then you should be able to run/build on your own.
 
 Primary Components: 
 - Electron
@@ -25,11 +21,26 @@ Primary Components:
 - node-pty
 - Amazon SDK
 
-#### Build Setup
+#### Build Setup for Mac/Linux
+``` bash
+# install dependencies and native modules
+./do_install.sh
+
+# serve with hot reload at localhost:9080
+npm run dev
+
+# build electron application for production
+npm run build
+```
+
+#### Build Setup for Windows
 
 ``` bash
 # install dependencies
 yarn
+
+# rebuild native modules
+./node_modules/.bin/electron-rebuild
 
 # serve with hot reload at localhost:9080
 yarn run dev
