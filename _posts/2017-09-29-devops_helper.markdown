@@ -1,6 +1,11 @@
 ---
-redirect_from:
-  - /opshell
+layout:     post
+title:      "Opshell - Quickly work with your AWS instances"
+subtitle:   "An early development project for working with AWS instances across multiple organizations"
+date:       2017-09-29 13:46:00
+author:     "Rick Baker"
+header-img: "img/post-bg-04.jpg"
+repo:       "https://github.com/ricktbaker/opshell"
 ---
 
 # Opshell
