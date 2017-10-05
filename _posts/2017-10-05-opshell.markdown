@@ -1,0 +1,13 @@
+---
+layout:     post
+title:      "Opshell"
+subtitle:   "GUI for working with your AWS instances via SSH."
+date:       2017-10-05 12:11:00
+author:     "Rick Baker"
+header-img: "img/opshell_header.jpg
+---
+
+I work with a large number of clients who host their services within AWS.   For that reason I'm constantly having to login to the AWS console to get the IP and key of the server that I want to connect as.     In the past I had a small ruby script that I was using to assist with this.   I recently decided to ditch that and write an actual GUI for it while I was trying to learn Electron.
+
+More details can be found [here](/ophshell)
+
