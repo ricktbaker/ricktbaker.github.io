@@ -37,7 +37,7 @@ Windows Requires OpenSSH to be installed and ssh.exe to be in path)<br /><br />
 
 Linux download coming soon.<br /><br />
 
-<h4 id="build-setup-for-maclinux">Build Setup for Mac/Linux</h4>
+<h4 id="build-setup-for-maclinux">Git Repo Clone and Build Setup for Mac/Linux</h4>
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># install dependencies and native modules</span>
 ./do_install.sh
 
@@ -49,21 +49,18 @@ npm run build
 </code></pre>
 </div>
 
-<h4 id="build-setup-for-windows">Build Setup for Windows</h4>
+<h4 id="build-setup-for-windows">Git Repo Clone and Build Setup for Windows</h4>
 
 Requires OpenSSH to be installed and ssh.exe to be in PATH
 
 <div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># install dependencies</span>
-yarn
-
-<span class="c"># rebuild native modules</span>
-./node_modules/.bin/electron-rebuild
+npm install
 
 <span class="c"># serve with hot reload at localhost:9080</span>
-yarn run dev
+npm run dev
 
 <span class="c"># build electron application for production</span>
-yarn run build
+npm run build
 </code></pre>
 </div>
 
